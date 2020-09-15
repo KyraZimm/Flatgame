@@ -16,28 +16,28 @@ public class CameraScript : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            if (gameObject.transform.position.y < 10)
+            if (gameObject.transform.position.y < 20)
             {
                 transform.Translate(0, 0.2f, 0);
             }
         }
         if (Input.GetKey(KeyCode.S))
         {
-            if (gameObject.transform.position.y > -10)
+            if (gameObject.transform.position.y > -20)
             {
                 transform.Translate(0, -0.2f, 0);
             }
         }
         if (Input.GetKey(KeyCode.D))
         {
-            if (gameObject.transform.position.x < 10)
+            if (gameObject.transform.position.x < 20)
             {
                 transform.Translate(0.2f, 0, 0);
             }
         }
         if (Input.GetKey(KeyCode.A))
         {
-            if (gameObject.transform.position.x > -10)
+            if (gameObject.transform.position.x > -20)
             {
                 transform.Translate(-0.2f, 0, 0);
             }
