@@ -6,14 +6,14 @@ using UnityEngine;
 public class BluePlanetScript : MonoBehaviour
 {
     public GameObject rocket;
-    private Vector2 force = new Vector2(0.1f, 0.1f);
-    private Vector3 rocketCoords = new Vector3(-19.3f, -16.2f, 5);
+    private Vector2 force = new Vector2(3f, 3f);
+    private Vector3 rocketCoords = new Vector3(-16.3f, -14f, 5);
     private bool rocketCreated = false;
     
     // Start is called before the first frame update
     void Start()
     {
-        force = force * Time.deltaTime;
+        
     }
 
     // Update is called once per frame
